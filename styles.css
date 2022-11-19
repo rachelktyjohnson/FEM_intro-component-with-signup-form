@@ -59,6 +59,11 @@ div.intro p {
   font-size: 1.05rem;
   margin-top: 25px;
 }
+@media (min-width: 600px) {
+  div.intro p {
+    font-size: 1rem;
+  }
+}
 
 @media (min-width: 600px) {
   div.content {
