@@ -81,6 +81,9 @@ div.pricing {
   box-shadow: 0 7px 0 rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 600px) {
+  div.pricing {
+    font-size: 0.9rem;
+  }
   div.pricing br {
     display: none;
   }
@@ -125,6 +128,11 @@ form span {
   text-align: center;
   color: hsl(246deg, 25%, 77%);
   font-size: 0.8rem;
+}
+@media (min-width: 600px) {
+  form span {
+    font-size: 0.65rem;
+  }
 }
 form span a {
   text-decoration: none;
