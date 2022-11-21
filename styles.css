@@ -110,7 +110,7 @@ form label {
 form span.error_hint {
   color: hsl(0deg, 100%, 74%);
   text-align: right;
-  margin-top: 5px;
+  margin: 5px 0 0 0;
   font-style: italic;
   font-weight: 500;
   display: none;
@@ -146,6 +146,9 @@ form input[type=submit] {
   box-shadow: 0 5px 0 #2ba671;
   margin-bottom: 20px;
 }
+form input[type=submit]:hover {
+  background: #61d6a3;
+}
 form span {
   text-align: center;
   color: hsl(246deg, 25%, 77%);
@@ -154,6 +157,7 @@ form span {
 @media (min-width: 600px) {
   form span {
     font-size: 0.65rem;
+    margin-bottom: 15px;
   }
 }
 form span a {
